@@ -80,7 +80,7 @@ void motor_buttons(void)
     {
       timer1_enable(TIM_DIV256, TIM_EDGE, TIM_SINGLE);
       timer1_write(motorTimer_init);
-      move =0 ;
+      move =0 ;//
     }
     
    Serial.println("moving");
